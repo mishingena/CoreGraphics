@@ -31,4 +31,9 @@ class Line: NSObject {
         CGContextSetLineWidth(context, strokeWidth)
         CGContextStrokePath(context)
     }
+    
+    func getLenght() -> CGFloat {
+        return sqrt((endPoint.x - startPoint.x)*(endPoint.x - startPoint.x) + (endPoint.y - startPoint.y)*(endPoint.y - startPoint.y))
+    }
+    
 }

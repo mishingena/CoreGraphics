@@ -13,7 +13,6 @@
 		B2BF115F1AE82F2A00961C5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2BF115E1AE82F2A00961C5B /* Images.xcassets */; };
 		B2BF11621AE82F2A00961C5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2BF11601AE82F2A00961C5B /* LaunchScreen.xib */; };
 		B2BF116E1AE82F2B00961C5B /* HW_CoreGraphicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BF116D1AE82F2B00961C5B /* HW_CoreGraphicsTests.swift */; };
-		B2BF11781AE82F5900961C5B /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BF11771AE82F5900961C5B /* MyView.swift */; };
 		B2FCA72B1AE9757600258C39 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCA72A1AE9757600258C39 /* Line.swift */; };
 		B2FCA72D1AE97D8600258C39 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCA72C1AE97D8600258C39 /* Branch.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		B2BF11671AE82F2A00961C5B /* HW_CoreGraphicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW_CoreGraphicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2BF116C1AE82F2B00961C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2BF116D1AE82F2B00961C5B /* HW_CoreGraphicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_CoreGraphicsTests.swift; sourceTree = "<group>"; };
-		B2BF11771AE82F5900961C5B /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		B2FCA72A1AE9757600258C39 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		B2FCA72C1AE97D8600258C39 /* Branch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,7 +83,6 @@
 			children = (
 				B2BF11571AE82F2A00961C5B /* AppDelegate.swift */,
 				B2BF11591AE82F2A00961C5B /* ViewController.swift */,
-				B2BF11771AE82F5900961C5B /* MyView.swift */,
 				B2FCA72A1AE9757600258C39 /* Line.swift */,
 				B2FCA72C1AE97D8600258C39 /* Branch.swift */,
 				B2BF115B1AE82F2A00961C5B /* Main.storyboard */,
@@ -221,7 +218,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2BF11781AE82F5900961C5B /* MyView.swift in Sources */,
 				B2FCA72B1AE9757600258C39 /* Line.swift in Sources */,
 				B2FCA72D1AE97D8600258C39 /* Branch.swift in Sources */,
 				B2BF115A1AE82F2A00961C5B /* ViewController.swift in Sources */,
